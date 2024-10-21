@@ -1,0 +1,42 @@
+.innovative-environment{padding:80px 0;text-align:center;background-color:#F6F5EF;}
+.innovative-environment__title{font-size:2.5rem;color:#333;margin-bottom:20px;}
+.innovative-environment__description{font-size:1rem;color:#666;max-width:800px;margin:0 auto 40px;line-height:1.6;}
+.innovative-environment__links{display:flex;justify-content:center;gap:30px;}
+.innovative-environment__link-create,.innovative-environment__link-submit{background-color:#fff;border-radius:10px;width:400px;height:165px;box-shadow:0 4px 10px rgba(0,0,0,0.1);transition:transform 0.3s ease;}
+.innovative-environment__link-create:hover,.innovative-environment__link-submit:hover{transform:translateY(-5px);}
+.innovative-environment__link-content{display:flex;flex-direction:row;align-items:center;}
+.innovative-environment__link-icon{margin-bottom:20px;}
+.innovative-environment__link-title{font-size:1.2rem;color:#333;margin-bottom:15px;}
+.innovative-environment__link-cta{color:#166F5E;text-decoration:none;font-weight:bold;transition:color 0.3s ease;}
+.innovative-environment__link-cta{position:relative;display:inline-block;}
+.innovative-environment__link-cta::after{content:'';position:absolute;left:0;bottom:-2px;width:0;height:2px;background-color:#166F5E;transition:width 0.3s ease;}
+.innovative-environment__link-cta:hover::after{width:100%;}
+.innovative-environment__link-text{text-align:left;margin-left:20px;margin-top:0px;padding-top:0px;}
+
+@media screen and (max-width:412px){
+.innovative-environment{padding:50px 20px;}
+.innovative-environment__title{font-size:2rem;margin-bottom:15px;}
+.innovative-environment__description{font-size:0.95rem;margin-bottom:30px;}
+.innovative-environment__links{flex-direction:column;gap:20px;align-items:center;}
+.innovative-environment__link-create,.innovative-environment__link-submit{width:100%;max-width:350px;height:auto;padding:20px;}
+.innovative-environment__link-content{flex-direction:row;justify-content:flex-start;align-items:center;}
+.innovative-environment__link-icon{margin-bottom:0;margin-right:15px;}
+.innovative-environment__link-text{text-align:left;margin-left:0;}
+.innovative-environment__link-title{font-size:1.1rem;margin-bottom:5px;}
+.innovative-environment__link-cta{font-size:0.9rem;}
+.innovative-environment__title br,.innovative-environment__description br{display:none;}
+}
+
+
+@media screen and (max-width:320px){
+.innovative-environment{padding:40px 20px;}
+.innovative-environment__title{font-size:1.8rem;margin-bottom:15px;}
+.innovative-environment__description{font-size:0.9rem;margin-bottom:30px;}
+.innovative-environment__links{flex-direction:column;gap:20px;}
+.innovative-environment__link-create,.innovative-environment__link-submit{width:92%;height:auto;padding:20px;}
+.innovative-environment__link-content{flex-direction:column;text-align:center;}
+.innovative-environment__link-icon{margin-bottom:15px;}
+.innovative-environment__link-text{text-align:center;margin-left:0;}
+.innovative-environment__link-title{font-size:1rem;margin-bottom:10px;}
+.innovative-environment__link-cta{font-size:0.9rem;}
+}

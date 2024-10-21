@@ -1,0 +1,87 @@
+.background-shapes{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0}
+.coin-markets{display:flex;justify-content:space-between;padding:50px 0;background-color:#f0f0f0;height:700px}
+.coin-markets__list{width:50%}
+.coin-markets__title{width:50%;margin-top:140px}
+.coin-markets__title h2{font-size:4rem;color:#0F393B;margin-bottom:50px}
+.coin-markets__title p{font-size:1.5rem;color:#547171;margin-top:10px;margin-bottom:10px}
+.coin-markets__title a{color:#166F5E;text-decoration:none;font-weight:bold}
+.coin-markets .free-account__containerTWO{position:relative;width:100%;height:100vh;background-color:#F0F0F0;margin:0;font-family:Arial,sans-serif;overflow:hidden}
+.free-accountTWO{position:absolute;top:90px;left:107px;border:1.2px solid #25d43000;padding:6px 12px 6px 12px;text-decoration:none;color:#000000;display:flex;align-items:center;justify-content:center;z-index:2;font-size:7.2px;width:98px;background-color:#D9EBD1;padding-top:0px;padding-bottom:0px}
+.free-account__circleTWO{position:absolute;top:60px;left:114px;border:3px solid #166F5E;border-radius:50%;width:84px;height:84px;z-index:1;background-color:#D9EBD1}
+.free-account__textTWO{color:#166F5E;font-weight:bold;font-size:12.6px;padding-left:15px;width:100px}
+.gionTWO{width:12px;height:3.6px;padding-left:0px}
+.flecha-derechaTWO{width:36px;height:18px;padding-left:6px}
+.crypto-dashboard_content{background-color:#f0f0f0;margin-left:150px;margin-top:5px;font-family:Arial,sans-serif;width:450px;position:relative}
+.crypto-dashboard{display:flex;padding:40px;position:relative;overflow:hidden;max-width:500px;height:600px;width:500px}
+.crypto-card{border-radius:15px;padding:20px;width:180px;height:250px;box-shadow:0 4px 6px rgba(0,0,0,0.1);transition:transform 0.3s ease,box-shadow 0.3s ease;position:relative;z-index:1}
+.crypto-card:hover{transform:translateY(-5px);box-shadow:0 6px 12px rgba(0,0,0,0.15)}
+.crypto-card__header{display:flex;align-items:center;margin-bottom:15px}
+.crypto-card__icon{width:40px;height:40px;border-radius:50%;margin-right:10px}
+.crypto-card__name{font-weight:bold}
+.crypto-card__symbol{font-size:0.8em}
+.crypto-card__price{font-size:1.5em;font-weight:bold;margin-bottom:5px}
+.crypto-card__change{margin-bottom:10px}
+.crypto-card__arrow{display:inline-block;width:20px;height:20px;border-radius:50%}
+.crypto-card--doge{background-color:#FFFEF6;position:relative;top:130px;left:0px}
+.crypto-card--doge .crypto-card__icon{background-color:#D7EADA;position:relative;top:-70px;left:45px;width:60px;height:60px;overflow:hidden}
+.crypto-card--doge .crypto-card__name{color:#000000;position:relative;top:10px;left:-30px;width:80px;padding-top:40px}
+.crypto-card--doge .crypto-card__symbol{color:#547171;position:relative;top:10px;left:-20px;padding-bottom:30px}
+.crypto-card--doge .crypto-card__price{color:#0F393B;position:relative;top:10px;left:40px}
+.crypto-card--doge .crypto-card__change{color:#49a840;position:relative;top:10px;left:30px}
+.crypto-card--doge .crypto-card__arrow{background-color:#FFFEF6;position:relative;top:30px;left:60px;width:30px;height:30px;display:flex;justify-content:center;align-items:center;box-shadow:0 4px 6px rgba(0,0,0,0.1)}
+.crypto-card--bitcoin{background-color:#FFFEF6;position:relative;top:250px;left:50px}
+.crypto-card--bitcoin .crypto-card__icon{background-color:#FFEEC8;position:relative;top:-60px;left:45px;width:60px;height:60px;border-radius:100%;overflow:hidden}
+.crypto-card--bitcoin .crypto-card__name{color:#000000;position:relative;top:10px;left:-25px;padding-top:30px}
+.crypto-card--bitcoin .crypto-card__symbol{color:#547171;position:relative;top:10px;left:-20px;padding-bottom:30px}
+.crypto-card--bitcoin .crypto-card__price{color:#0F393B;position:relative;top:10px;left:20px}
+.crypto-card--bitcoin .crypto-card__change{color:#49a840;position:relative;top:10px;left:20px}
+.crypto-card--bitcoin .crypto-card__arrow{background-color:#FFFEF6;position:relative;top:40px;left:60px;width:30px;height:30px;box-shadow:0 4px 6px rgba(0,0,0,0.1);display:flex;justify-content:center;align-items:center}
+.shape{position:absolute}
+.shape--circle{width:200px;height:200px;border-radius:50%;background-color:#f0773b;top:359px;left:33px}
+.shape--square{width:120px;height:130px;background-color:#FFDCCE;bottom:370px;right:90px;border-radius:20px;z-index:1}
+.shape--rectangle{width:110px;height:120px;background-color:#CEFFDC;bottom:5px;right:250px;border-radius:20px}
+.shape--rectangle2{width:200px;height:230px;background-color:#FFC85B;bottom:250px;right:120px;border-top-right-radius:150px}
+.free-account__container{margin-top:90px}
+.shape__image--square{position:relative;top:20px;left:10px}
+.shape__image--rectangle{position:relative;top:15px;left:5px}
+.crypto-card__icon-image-doge{position:relative;top:3px;left:0px;width:50px;height:50px}
+.crypto-card__icon-image-bitcoin{position:relative;top:3px;left:1px;width:55px;height:55px}
+
+
+@media screen and (max-width:412px){
+.coin-markets{flex-direction:column-reverse;height:auto;padding:30px 20px}
+.coin-markets__list,.coin-markets__title{width:100%}
+.coin-markets__title{margin-top:0;margin-bottom:30px;text-align:center}
+.coin-markets__title h2{font-size:2rem;margin-bottom:20px}
+.coin-markets__title p{font-size:1rem}
+.crypto-dashboard_content{margin-left:0;width:100%;display:flex;flex-direction:column;align-items:center}
+.crypto-dashboard{padding:20px;height:auto;width:100%;display:flex;flex-direction:column;align-items:center}
+.crypto-card{width:57%;height:auto;margin-bottom:40px}
+.crypto-card--doge,.crypto-card--bitcoin{position:static;top:auto;left:auto}
+.crypto-card__icon{position:static;margin:5px 0}
+.crypto-card__name{position:static;margin:5px 0;margin-left:10px}
+.crypto-card__symbol{position:static;margin:5px 0;margin-left:7px}
+.crypto-card__price{position:static;margin:5px 0}
+.crypto-card__change{position:static;margin:5px 0}
+.crypto-card__arrow{position:static;margin:5px 0}
+.shape{display:none}
+.free-account__containerTWO{display:none}
+.crypto-card__icon-image-doge{width:90px;height:55px;position:relative;top:1.5px;left:-1.5px}
+}
+
+@media screen and (max-width:320px){
+.coin-markets{flex-direction:column-reverse;height:auto;padding:30px 20px}
+.coin-markets__list,.coin-markets__title{width:100%}
+.coin-markets__title{margin-top:0;margin-bottom:30px;text-align:center}
+.coin-markets__title h2{font-size:2rem;margin-bottom:20px}
+.coin-markets__title p{font-size:1rem}
+.crypto-dashboard_content{margin-left:0;width:100%;display:flex;flex-direction:column;align-items:center}
+.crypto-dashboard{padding:20px;height:auto;width:100%;display:flex;flex-direction:column;align-items:center}
+.crypto-card{width:80%;height:auto;margin-bottom:40px}
+.crypto-card--doge,.crypto-card--bitcoin{position:static;top:auto;left:auto}
+.crypto-card__icon,.crypto-card__name,.crypto-card__symbol,
+.crypto-card__price,.crypto-card__change,.crypto-card__arrow{position:static;margin:5px 0}
+.shape{display:none}
+.free-account__containerTWO{display:none}
+.crypto-card__icon-image-doge{width:90px;height:55px;position:relative;top:1.5px;left:-1.5px}
+}

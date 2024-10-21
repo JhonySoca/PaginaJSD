@@ -1,0 +1,25 @@
+.features{height:450px;width:100%;background-color:#F6F5EF;}
+.features__title{display:flex;justify-content:center;margin-bottom:50px;padding-top:90px;font-size:40px;text-align:center;}
+.features__list{display:flex;gap:50px;margin-left:50px;margin-right:50px;justify-content:space-around;}
+.features__list h3{margin-bottom:20px;margin-top:10px;}
+
+@media screen and (max-width: 412px) {
+    .features{height:auto;padding:40px 40px;}
+    .features__title{font-size:24px;padding-top:30px;margin-bottom:30px;}
+    .features__list{flex-direction:column;gap:30px;margin-left:0;margin-right:0;align-items:center;}
+    .features__list h3{margin-bottom:10px;margin-top:5px;font-size:18px;text-align:center;}
+    .features__list p{font-size:14px;text-align:center;}
+    .features__item-icon_trading{margin-left:100px;}
+    .features__item-icon_seguridad{margin-left:80px;}
+    .features__item-icon_tecnologia{margin-left:80px;}
+}
+@media screen and (max-width:320px){
+    .features{height:auto;padding:40px 40px;}
+    .features__title{font-size:24px;padding-top:30px;margin-bottom:30px;}
+    .features__list{flex-direction:column;gap:30px;margin-left:0;margin-right:0;align-items:center;}
+    .features__list h3{margin-bottom:10px;margin-top:5px;font-size:18px;text-align:center;}
+    .features__list p{font-size:14px;text-align:center;}
+    .features__item-icon_trading{margin-left:80px;}
+    .features__item-icon_seguridad{margin-left:80px;}
+    .features__item-icon_tecnologia{margin-left:80px;}
+}

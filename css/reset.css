@@ -1,0 +1,36 @@
+*,*::before,*::after
+{box-sizing:border-box;margin:0;padding:0;}body,h1,h2,h3,h4,h5,h6,p,figure,blockquote,dl,dd{margin:0;}ul[role="list"],ol[role="list"]{list-style:none;}input,button,textarea,select{font:inherit;}
+img,picture{max-width:100%;height:auto;}
+@media (prefers-reduced-motion:reduce)
+{*{animation:none !important;transition:none !important;}}
+.contenedor{max-width:1366px;margin:0 auto;width:100%;background-color:#F2EDE5;}
+
+@media screen and (max-width: 412px) {
+    .contenedor{
+        width:412px;
+    }
+    main{
+        background-color: #F6F5EF;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .contenedor {
+        overflow-x: hidden;
+    }
+
+    
+}
+
+@media screen and (max-width: 320px) {
+    .contenedor{
+        width:320px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .contenedor {
+        overflow-x: hidden;
+    }
+    
+}
